@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; 
+  }
+
+  @media screen and (max-width: 23cm){
+    .topnavmin {
+        overflow: hidden;
+        background-color: #171d25;
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+    
+    .topnav #myLinks {
+        display: none;
+    }
+    
+    .topnavmin a {
+        color: #c5c3c0;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        font-weight: bold;
+        justify-content: center;
+    }
+    
+    .topnavmin a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnavmin a:hover{
+        background-color: #c5c3c0;
+        color: black;
+    }
+
+    .topnavmax{
+        right: -450px;
+    }
+    .topnavmax a{
+        right: -450px;
+        position: absolute;
+    }
+}
+@media screen and (min-width: 23cm) {
+    .topnavmin{
+        right: -450px;
+        position: absolute;
+    }
+    .topnavmin a{
+        right: -450px;
+    }
+    .topnavmax {
+        overflow: hidden;
+        background-color: #171d25;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        text-align: center;
+        position: relative;
+    }
+
+    
+
+    .topnavmax a {
+        color: #c5c3c0;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: inline-block;
+        padding-right: 1cm;
+        padding-left: 1cm;
+        font-weight: bold;
+        margin: 0 1cm;
+    }
+    .topnavmax a:hover{
+        background-color: #c5c3c0;
+        color: black;
+    }
+    .jud{
+        color: #d4d6de;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.boxnya {
+    height: 16cm;
+    width: 100%;
+    background-color: #1a2b3f;
+    display: flex;
+    position: relative;
+    justify-content:center;
+    
+}
+.boxnya h3{
+    margin-top: 3cm;
+    text-align: center;
+    font-size: 20px;
+    color: #d4d6de;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+
+.carousel-item img {
+    margin-top: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    width: 8 cm; 
+    height: 10cm; 
+    position: relative;
+}
+@media screen and (max-width: 16cm) {
+    .carousel-item img {
+    width: 4 cm; 
+    height: 6cm; 
+    }
+
+}
+
+.carousel-control-prev, .carousel-control-next {
+    
+    position: relative;
+  }
+
+.bawah{
+    background-color: #0b151e;
+    color: #c5c3c0;
+    position: relative;
+    padding-top: 20px;
+}
+
+.timeline-table{
+    font-family: 'Nunito';
+    padding-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+table.timeline-table {
+    border-collapse: collapse; /* Gabungkan batas sel */
+    width: 60%; /* Lebar tabel */
+  }
+  
+  table.timeline-table th, table.timeline-table td {
+    padding: 7px; /* Atur jarak antara konten dan tepi sel */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  .registration-form {
+    width: 400px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 30%;
+    background-color: #223b84;
+  }
+
+  .registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #error-message {
+    color: red;
+    font-weight: bold;
+  }
+
+
+
+
+.call{
+    color: #ccc;
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50px; 
+    z-index: 355;
+}
+
+.gmail{
+    color: #ccc;
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50px; 
+    z-index: 355;
+}
